@@ -1,5 +1,5 @@
 # Temp script to test Git functionality
 
-plot(2,2)
+plot(3,3)
 
 temp<-2
