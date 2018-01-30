@@ -12,4 +12,6 @@ plot(7,7)  #test #4 from work in Rstudio using push only
 
 plot(8,8)   #test #5 from work in Rstudio (new username)
 
+plot(9,9)
+
 temp<-2
