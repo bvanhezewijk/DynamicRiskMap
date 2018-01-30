@@ -1,0 +1,23 @@
+Package: RiskMap
+Title: Dynamic risk mapping
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Brian", "Van Hezewijk", email = "brian.vanhezewijk@canada.ca", role = c("aut", "cre")),
+    person("Kaitlyn", "Schurmann", email = "kdschurmann@gmail.com", role = "aut"))
+Description: Functions for combining data for dynamic risk       mapping in R. Starts with functions for fetching data from a main    data library, formatting and importing raw data. Risk values are calculated for each data layer and combined into a single totalRisk layer. Static and interactive visualization functions of total risk, high risk and trapping grids are included. Risk mapping projects can be archived and reloaded later.
+Depends:
+    R (>= 3.3.1),
+    raster,
+    SpaDES,
+    SpaDES.core,
+    SpaDES.tools
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
+Imports: dismo,
+    leaflet,
+    maptools,
+    rgdal,
+    scales,
+    sp
